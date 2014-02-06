@@ -1,4 +1,5 @@
 # Maintainer : Félix Saparelli <aur @ passcod.name>
+# Contributor: Paul Vinieratos <pvinis @ gmail.com>
 # Contributor: Cedric MATHIEU <me.xenom @ gmail.com>
 # Contributor: Det <nimetonmaili @ gmail.com>
 # Contributor: coderoar <coderoar @ gmail.com>
