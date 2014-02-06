@@ -1,10 +1,10 @@
 # Maintainer : Félix Saparelli <aur @ passcod.name>
-# Contributor: Paul Vinieratos <pvinis @ gmail.com>
 # Contributor: Cedric MATHIEU <me.xenom @ gmail.com>
-# Contributor: Det <nimetonmaili @ gmail.com>
 # Contributor: coderoar <coderoar @ gmail.com>
+# Contributor: Det <nimetonmaili @ gmail.com>
 # Contributor: kang <kang @ mozilla.com>
 # Contributor: John Reese <jreese @ noswap.com>
+# Contributor: Paul Vinieratos <pvinis @ gmail.com>
 
 pkgname=firefox-always-nightly
 pkgdesc='Standalone web browser from mozilla.org, nightly build, always updating'
