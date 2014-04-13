@@ -1,0 +1,16 @@
+# Maintainer: Félix Saparelli <aur@passcod.name>
+pkgname=e
+pkgver=1.0
+pkgrel=1
+pkgdesc="Alias for \$EDITOR"
+arch=('i686' 'x86_64')
+url="https://github.com/passcod/pkgs"
+license=('Public Domains')
+optdepends=('vim')
+source=('git://github.com/passcod/pkgs.git')
+build() {}
+package() {
+  cd "$srcdir/$pkgname"
+  mkdir -p "$pkgdir/usr/local/bin"
+  cp e "$pkgdir/usr/local/bin"
+}

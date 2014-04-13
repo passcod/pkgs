@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+if [ -z "$EDITOR" ]; then
+	EDITOR="vim"
+fi
+
+exec -a $EDITOR $EDITOR $@
