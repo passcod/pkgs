@@ -8,9 +8,9 @@ url="https://github.com/passcod/pkgs"
 license=('Public Domains')
 optdepends=('vim')
 source=('git://github.com/passcod/pkgs.git')
-build() {}
+md5sums=('SKIP')
 package() {
-  cd "$srcdir/$pkgname"
+  cd "$srcdir/pkgs/$pkgname"
   mkdir -p "$pkgdir/usr/local/bin"
-  cp e "$pkgdir/usr/local/bin"
+  cp e "$pkgdir/usr/local/bin/e"
 }
