@@ -1,0 +1,9 @@
+[Unit]
+Description=Snapshot filesystem daily
+
+[Timer]
+OnUnitActiveSec=24h
+Unit=btrfs-daily-snapshot.service
+
+[Install]
+WantedBy=multi-user.target

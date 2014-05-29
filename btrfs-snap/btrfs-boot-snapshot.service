@@ -1,0 +1,11 @@
+[Unit]
+Description=Snapshot filesystem at boot
+After=local-fs.target
+
+[Service]
+User=root
+Type=oneshot
+ExecStart=/root/bin/btrfs-snap boot
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,24 @@
+#!/usr/bin/bash
+
+if whoami | grep -qv "^root$"; then
+  echo "need root permissions"
+  exit 1
+fi
+
+typ="$1"
+if [ -z "$typ" ]; then
+  typ="user"
+fi
+
+msg="$2"
+if [ -z "$msg" ]; then
+  msg=""
+else
+  msg="-$msg"
+fi
+
+snap="$(date +"%Y.%m.%d-%H.%M.%S")$msg"
+
+cd /var/lib/btrfs
+mkdir -p __snapshot/$typ
+btrfs sub snap -r / __snapshot/$typ/$snap
