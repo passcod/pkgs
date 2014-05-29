@@ -4,4 +4,4 @@ Description=Snapshot filesystem daily
 [Service]
 User=root
 Type=simple
-ExecStart=/root/bin/btrfs-snap date
+ExecStart=/usr/local/bin/btrfs-snap date

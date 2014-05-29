@@ -1,4 +1,5 @@
 post_install() {
+  systemctl daemon-reload
   systemctl enable btrfs-boot-snapshot
   systemctl enable btrfs-daily-snapshot.timer
 }
@@ -8,6 +9,7 @@ post_upgrade() {
 }
 
 pre_remove() {
+  systemctl daemon-reload
   systemctl disable btrfs-boot-snapshot
   systemctl disable btrfs-daily-snapshot.timer
 }
