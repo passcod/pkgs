@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+if [ -z "$1" ]; then
+  echo No username given.
+  exit 1
+fi
+
+pass=$(cat /home/$1/.vault.password)
+
+encfs -f --extpass="echo $pass" --public /home/$1/.vault.encrypted /home/$1/.vault
