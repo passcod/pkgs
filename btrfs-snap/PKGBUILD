@@ -1,9 +1,9 @@
 # Maintainer: Félix Saparelli <aur@passcod.name>
 pkgname=btrfs-snap
-pkgver=1.0
-pkgrel=2
+pkgver=1.1
+pkgrel=1
 pkgdesc="Snapshotting utilities for btrfs"
-arch=('i686' 'x86_64')
+arch=('any')
 url="https://github.com/passcod/pkgs"
 license=('Public Domain')
 depends=('btrfs-progs')
