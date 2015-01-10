@@ -2,7 +2,7 @@
 # Contributor: Matthieu "CircleCode" Codron <codronm+circlecode@gmail.com>
 pkgname=hub-bin
 pkgver=2.2.0
-pkgrel=4
+pkgrel=5
 pkgdesc="hub helps you win at git. Go-powered version"
 arch=('i686' 'x86_64')
 url="https://hub.github.com"
@@ -16,5 +16,5 @@ package() {
   cd $srcdir/hub_${pkgver}-rc1_linux_${_arch}
   install -Dm755 {,$pkgdir/usr/bin/}hub
   install -Dm644 {etc/,$pkgdir/usr/share/git/completion/}hub.bash_completion.sh
-  install -Dm644 etc/hub.zsh_completions "$pkgdir/usr/local/share/zsh/site-functions/_hub"
+  install -Dm644 etc/hub.zsh_completion "$pkgdir/usr/local/share/zsh/site-functions/_hub"
 }
