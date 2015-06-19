@@ -1,2 +1,3 @@
 *.xz
 *.src.tar.gz
+*.pkg.*
