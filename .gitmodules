@@ -1,0 +1,15 @@
+[submodule "AUR/glfrontier"]
+	path = AUR/glfrontier
+	url = ssh://aur@aur4.archlinux.org/glfrontier.git
+[submodule "AUR/multirust"]
+	path = AUR/multirust
+	url = ssh://aur@aur4.archlinux.org/multirust.git
+[submodule "AUR/firefox-always-nightly"]
+	path = AUR/firefox-always-nightly
+	url = ssh://aur@aur4.archlinux.org/firefox-always-nightly.git
+[submodule "AUR/hub-bin"]
+	path = AUR/hub-bin
+	url = ssh://aur@aur4.archlinux.org/hub-bin.git
+[submodule "AUR/radio-france"]
+	path = AUR/radio-france
+	url = ssh://aur@aur4.archlinux.org/radio-france.git
