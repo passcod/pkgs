@@ -1,7 +1,0 @@
-[Unit]
-Description=Snapshot filesystem daily
-
-[Service]
-User=root
-Type=simple
-ExecStart=/usr/local/bin/btrfs-snap date
