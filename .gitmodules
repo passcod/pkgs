@@ -4,3 +4,6 @@
 [submodule "AUR/firefox-always-nightly"]
 	path = firefox-always-nightly
 	url = ssh://aur@aur4.archlinux.org/firefox-always-nightly.git
+[submodule "cargo-watch"]
+	path = cargo-watch
+	url = ssh://aur@aur.archlinux.org/cargo-watch.git
