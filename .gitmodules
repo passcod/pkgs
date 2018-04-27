@@ -7,3 +7,6 @@
 [submodule "cargo-watch"]
 	path = cargo-watch
 	url = ssh://aur@aur.archlinux.org/cargo-watch.git
+[submodule "zoho-docs-bin"]
+	path = zoho-docs-bin
+	url = ssh://aur@aur.archlinux.org/zoho-docs-bin.git
